@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* border: 1px solid red; */
+
+}
+
+/* Header Section Styles */
+header {
+
+    height: 100vh;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-container {
+
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    margin-bottom: 130px;
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-bottom: 24px;
+}
+
+.header-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.header-button {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px 20px 26px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+
+}
+
+#description-control {
+    padding-left: 876px;
+}
+
+/* Failure-section-styles */
+
+.pervious-year-failures {
+
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.failure-person {
+    width: 40%;
+    height: 100%;
+}
+
+.failure-reasons {
+    width: 30%;
+    text-align: left;
+}
+
+.upset-person-img {
+    height: 500px;
+    width: 500px;
+
+}
+
+.failure-reason-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-reason-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-reason-lists {
+    text-align: start;
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.li-icon-check-mark {
+    color: rgb(13, 224, 13);
+
+}
+
+.failure-list {
+    margin-bottom: 8px;
+}
+
+/* My plan section styles */
+
+.my-plan {
+    margin-bottom: 130px;
+}
+
+.plan-title {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.future-skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+    padding: 10px;
+    text-align: center;
+}
+
+.future-skill {
+    gap: 86px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+/* Be Positive Section Styles */
+
+.be-positive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.be-positive-container {
+    height: auto;
+    width: 60%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 8px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+}
+
+.be-positive-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+
+}
+
+.btn-be-positive-call {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px 20px 26px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+
+}
