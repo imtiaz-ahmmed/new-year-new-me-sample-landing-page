@@ -171,7 +171,7 @@ header {
     height: auto;
     width: 60%;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     background-image: url(../images/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-blend-mode: overlay;
@@ -194,5 +194,90 @@ header {
     color: #F15B22;
     background-color: #FFFFFF;
     margin-bottom: 60px;
+
+}
+
+/* Footer Styles */
+footer {
+    background: #151414;
+    height: 70vh;
+    width: 100%;
+}
+
+.contacts {
+    width: 30%;
+}
+
+.subscribe {
+    width: 30%;
+}
+
+.footer-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    /* height: 50vh; */
+    justify-content: space-around;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom: 16px;
+
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.footer-sub-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: #F3F3F3;
+}
+
+.btn-footer {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px 20px 26px;
+    color: #F15B22;
+    background-color: #FFFFFF;
 
 }
