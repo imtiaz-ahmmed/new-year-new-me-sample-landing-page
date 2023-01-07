@@ -1,11 +1,11 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    /* border: 1px solid red; */
 
 }
 
 /* Header Section Styles */
+
 header {
 
     height: 100vh;
@@ -203,7 +203,7 @@ header {
     height: 100vh;
 }
 
-.pricing-head-title{
+.pricing-head-title {
     text-align: center;
     color: #151414;
     font-weight: 700;
@@ -237,7 +237,7 @@ header {
 
 }
 
-.pricing-plan-title{
+.pricing-plan-title {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
@@ -246,7 +246,8 @@ header {
     border-radius: 8px;
     text-align: center;
 }
-.pricing-plan-title:hover{
+
+.pricing-plan-title:hover {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
@@ -285,6 +286,7 @@ header {
     margin-left: 45%;
     margin-top: 40px;
 }
+
 .btn-pricing-plan:hover {
     font-weight: 600;
     font-size: 20px;
@@ -297,13 +299,8 @@ header {
     margin-top: 40px;
 }
 
-
-
-
-
-
-
 /* Footer Styles */
+
 footer {
     background: #151414;
     height: 70vh;
@@ -372,13 +369,6 @@ footer {
     background-color: #151414;
     margin-bottom: 16px;
     color: #F15B22;
-
-
-}
-
-
-::placeholder {
-    color: #F3F3F3;
 }
 
 .btn-footer {
@@ -390,5 +380,8 @@ footer {
     color: #F15B22;
     background-color: #FFFFFF;
     text-align: center;
-
 }
+::placeholder {
+    color: #F3F3F3;
+}
+
