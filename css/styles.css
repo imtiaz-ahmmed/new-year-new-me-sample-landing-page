@@ -197,6 +197,112 @@ header {
 
 }
 
+/* pricing plans styles */
+
+.pricing-plans {
+    height: 100vh;
+}
+
+.pricing-head-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.pricing-plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.pricing-plans-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plans {
+    border: 3px solid rgb(5, 247, 162);
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 20%;
+    height: 15%;
+
+}
+
+.pricing-plan-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: rgb(5, 247, 162);
+    color: #F8F8F8;
+    border-radius: 8px;
+    text-align: center;
+}
+.pricing-plan-title:hover{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: rgba(213, 18, 4, 0.895);
+    color: #F8F8F8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.category {
+    font-weight: 600;
+    font-size: 55px;
+    color: #151414;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.pricing-list {
+    padding: 10px;
+}
+
+.li-icon-xmark {
+    color: red;
+
+}
+
+.btn-pricing-plan {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px 20px 26px;
+    background-color: #e40505;
+    color: #FFFFFF;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+.btn-pricing-plan:hover {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px 20px 26px;
+    background-color: rgb(5, 247, 162);
+    color: #FFFFFF;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
 /* Footer Styles */
 footer {
     background: #151414;
@@ -265,7 +371,11 @@ footer {
     height: 64px;
     background-color: #151414;
     margin-bottom: 16px;
+    color: #F15B22;
+
+
 }
+
 
 ::placeholder {
     color: #F3F3F3;
@@ -279,5 +389,6 @@ footer {
     padding: 21px 25px 20px 26px;
     color: #F15B22;
     background-color: #FFFFFF;
+    text-align: center;
 
 }
